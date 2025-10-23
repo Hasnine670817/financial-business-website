@@ -40,6 +40,10 @@
     @apply inline-block;
   }
 
+  img {
+    @apply max-w-full
+  }
+
   input:focus {
     @apply !shadow-none !outline-0;
   }
@@ -71,6 +75,21 @@
   .link-a:hover::after,
   .link-a.active::after {
     @apply w-full transition-all duration-300
+  }
+
+
+
+
+  .text-slider .swiper-pagination {
+    @apply !bottom-4
+  }
+
+  .text-slider .swiper-pagination .swiper-pagination-bullet {
+    @apply !w-12 !h-1 !bg-[#FFFFFF40] !rounded-xs !mx-4
+  }
+
+  .text-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply !bg-white
   }
 
 
