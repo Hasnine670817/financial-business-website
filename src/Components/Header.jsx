@@ -4,7 +4,7 @@ import { FaBars } from 'react-icons/fa';
 
 const Header = () => {
     return (
-        <header className='py-4 bg-[#F3F4F6]/70 backdrop-blur-md sticky top-0 z-50'>
+        <header className='py-2.5 lg:py-4 bg-[#F3F4F6]/70 backdrop-blur-md sticky top-0 z-50'>
             <div className='container-custom'>
                 <nav className='hidden lg:flex items-center justify-between'>
                     <Link to='/'><img className='lg:max-w-[90px] 2xl:max-w-[130px]' src={headerLogo} alt="logo" /></Link>
