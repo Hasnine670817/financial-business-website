@@ -1,14 +1,16 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 @theme {
   /* font family */
-  /* --font-poppins: "Poppins", serif;
-    --font-obviously: "Obviously_Semi"; */
+  --font-manrope: "Manrope", sans-serif;
 
   /* color */
   /* --color-black: #000000;
     --color-white: #FFFFFF; */
+  --color-old-green: #12300B;
 
   /* breakpoints  */
   --breakpoint-sm: 576px;
@@ -20,6 +22,11 @@
 }
 
 @layer base {
+
+  body {
+    @apply bg-[#F3F4F6] font-manrope text-black
+  }
+
   span {
     @apply inline-block;
   }
@@ -38,6 +45,26 @@
   .container-custom {
     @apply sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1120px] 2xl:max-w-[1340px] 3xl:max-w-[1520px] mx-auto px-5;
   }
+
+  .link-a {
+    @apply py-1
+  }
+
+  .link-a:hover,
+  .link-a.active {
+    @apply text-old-green
+  }
+
+  .link-a::after {
+    @apply content-[''] absolute w-0 h-0.5 bg-old-green left-0 right-0 mx-auto bottom-0 z-10 transition-all duration-300
+  }
+
+  .link-a:hover::after,
+  .link-a.active::after {
+    @apply w-full transition-all duration-300
+  }
+
+
 }
 
 @layer utilities {
