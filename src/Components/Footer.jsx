@@ -1,10 +1,11 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
+// import footerLogo from '../../public/images/logo.png';
 
 const Footer = () => {
     return (
-        <div>
+        <footer>
             
-        </div>
+        </footer>
     );
 };
 

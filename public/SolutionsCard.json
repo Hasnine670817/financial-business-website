@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Solar Hybrid Mortgage",
+        "description": "Residential Low FICO solution for providing access to clean energy while lowering overall living expenses."
+    },
+    {
+        "id": 2,
+        "title": "Debt Financing",
+        "description": "Competitive loan structures designed to maximize project ROI."
+    },
+    {
+        "id": 3,
+        "title": "Development & Construction Support",
+        "description": "Hands-on expertise to guide your project through planning, permitting, and execution."
+    },
+    {
+        "id": 4,
+        "title": "Commercial  PPAs",
+        "description": "Customized PPA structures for commercial-scale solar systems to optimize returns."
+    },
+    {
+        "id": 5,
+        "title": "Tax Equity Financing",
+        "description": "Optimize your project’s financial structure by leveraging available tax incentives."
+    }
+]
