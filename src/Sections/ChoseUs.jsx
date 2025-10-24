@@ -41,7 +41,7 @@ const ChoseUs = () => {
                     </div>
 
 
-                    <div className='md:absolute -bottom-[170px] -right-[200px] lg:-right-[400px] mt-4 md:mt-0 w-[350px] lg:w-auto'>
+                    <div className='md:absolute -bottom-[170px] -right-[200px] lg:-right-[400px] mt-4 md:mt-0 max-w-[370px] md:max-w-full lg:w-auto'>
                         <div className='max-w-[470px] bg-old-green rounded-[35px] text-sm lg:text-base 2xl:text-lg text-white text-center font-poppins font-normal leading-[1.8] text-slider'>
                             <Swiper
                                 slidesPerView={1}
@@ -59,10 +59,10 @@ const ChoseUs = () => {
                                 modules={[Pagination, Autoplay]}
                                 className="mySwiper"
                             >
-                                <SwiperSlide className='pt-14 px-10 sm:px-14 pb-10 md:pb-20'>
+                                <SwiperSlide className='pt-8 sm:pt-14 px-8 sm:px-14 pb-10 md:pb-20'>
                                     <p>Our agnostic, bespoke approach means we tailor every solution to your project’s specific needs—whether you’re scaling Residential Portfolios, implementing Commercial systems, or constructing Industrial solar solutions.</p>
                                 </SwiperSlide>
-                                <SwiperSlide className='pt-14 px-10 sm:px-14 pb-10 md:pb-20'>
+                                <SwiperSlide className='pt-8 sm:pt-14 px-8 sm:px-14 pb-10 md:pb-20'>
                                     <p>Our innovative, client-focused strategy ensures each project receives a customized approach — whether optimizing Residential energy systems, integrating advanced Commercial technologies, or developing large-scale Industrial infrastructures.</p>
                                 </SwiperSlide>
                             </Swiper>
@@ -71,7 +71,7 @@ const ChoseUs = () => {
 
                 </div>
 
-                <div className='bg-[linear-gradient(270deg,_#F3F4F6_0%,_#262F2E_48%,_#F3F4F6_100%)] max-w-[1050px] mx-auto h-0.5 mt-[50px] md:mt-[280px]'></div>
+                <div className='bg-[linear-gradient(270deg,_#F3F4F6_0%,_#262F2E_48%,_#F3F4F6_100%)] max-w-[1050px] mx-auto h-0.5 mt-[50px] md:mt-[250px] lg:mt-[250px] xl:mt-[280px]'></div>
             </div>
         </section>
     );

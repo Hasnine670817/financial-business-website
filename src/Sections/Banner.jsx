@@ -4,7 +4,9 @@ import brainstorming from '../../public/images/icons/brainstorming.png';
 
 const Banner = () => {
     return (
+        
         <section className='py-9 md:py-12 lg:py-15'>
+
             <div className='container-custom'>
                 <div className='flex flex-col-reverse flex-wrap lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-10 2xl:gap-16'>
                     <div className='relative mt-8 lg:mt-0'>
