@@ -1,0 +1,110 @@
+[
+    {
+        "id": "card-001",
+        "title": "Green Energy Capital Solutions",
+        "summary": "Custom financing solutions for residential and commercial solar projects.",
+        "details": "We provide tailored capital structures—equity, debt, and hybrid models—designed to optimise returns and reduce up-front costs. Our team performs deep technical and financial due diligence, models cashflows, and structures repayment schedules aligned with project timelines and offtake agreements.",
+        "thumbnail": "https://i.ibb.co.com/q37MJS2Y/image1.jpg",
+        "date": "2025-08-01",
+        "author": "Finance Team",
+        "category": "Financing",
+        "tags": ["capital", "solar", "debt", "equity"],
+        "featured": true
+    },
+    {
+        "id": "card-002",
+        "title": "Project Planning & Optimization",
+        "summary": "End-to-end planning to maximise generation and ROI.",
+        "details": "Our planning service covers site assessment, yield forecasting, design optimization, and construction phasing to increase energy production and lower levelized cost of energy (LCOE). We integrate financial sensitivity analysis so stakeholders can make data-driven decisions.",
+        "thumbnail": "https://i.ibb.co.com/1Ywfy5Qd/image2.jpg",
+        "date": "2025-07-21",
+        "author": "Engineering",
+        "category": "Development",
+        "tags": ["planning", "optimization", "yield"],
+        "featured": false
+    },
+    {
+        "id": "card-003",
+        "title": "Solar Hybrid Mortgage",
+        "summary": "Hybrid financing that blends mortgage structures with renewable incentives.",
+        "details": "Hybrid mortgage structures allow property owners to finance solar installations together with real estate loans, leveraging tax incentives and long-term PPA revenue streams. This product is ideal for mixed-use developments and large residential portfolios.",
+        "thumbnail": "https://i.ibb.co.com/ttW1cfC/image3.webp",
+        "date": "2025-06-15",
+        "author": "Product",
+        "category": "Financial Product",
+        "tags": ["mortgage", "hybrid", "incentives"],
+        "featured": false
+    },
+    {
+        "id": "card-004",
+        "title": "Debt Financing Solutions",
+        "summary": "Structured loans and credit facilities tailored for renewable projects.",
+        "details": "We arrange senior debt, mezzanine finance and revolving credit facilities backed by project contracts. Our syndication network connects clients with regional and international lenders to secure competitive rates and flexible terms.",
+        "thumbnail": "https://i.ibb.co.com/mrB0GTSy/image44.jpg",
+        "date": "2025-05-30",
+        "author": "Capital Markets",
+        "category": "Financing",
+        "tags": ["debt", "syndication", "lenders"],
+        "featured": false
+    },
+    {
+        "id": "card-005",
+        "title": "Development & Construction Support",
+        "summary": "Hands-on support from permitting to construction closeout.",
+        "details": "Our team assists with permitting, EPC contracting, construction oversight, and commissioning. We implement cost-control measures and milestone-linked financing to keep projects on budget and on schedule.",
+        "thumbnail": "https://i.ibb.co.com/8gKGtsGc/image5.jpg",
+        "date": "2025-04-10",
+        "author": "Operations",
+        "category": "Development",
+        "tags": ["construction", "EPC", "permitting"],
+        "featured": false
+    },
+    {
+        "id": "card-006",
+        "title": "Commercial PPAs",
+        "summary": "Power Purchase Agreements for commercial & industrial customers.",
+        "details": "We negotiate and structure PPAs that align offtaker needs with investor returns. Contract terms are optimized for price stability, performance guarantees, and credit support to de-risk offtake revenue streams.",
+        "thumbnail": "https://i.ibb.co.com/0R1tc1TB/image6.jpg",
+        "date": "2025-03-05",
+        "author": "Legal & Contracts",
+        "category": "Contracts",
+        "tags": ["PPA", "offtake", "contracts"],
+        "featured": false
+    },
+    {
+        "id": "card-007",
+        "title": "Tax Equity Financing",
+        "summary": "Leveraging tax incentives to improve project returns.",
+        "details": "We structure tax-equity partnerships that allow investors to monetise production & investment tax credits. Our specialists ensure compliance with tax rules while maximising after-tax cash flows for sponsors and investors.",
+        "thumbnail": "https://i.ibb.co.com/HTGZG25Z/image7.webp",
+        "date": "2025-02-20",
+        "author": "Tax Desk",
+        "category": "Financing",
+        "tags": ["tax", "equity", "credits"],
+        "featured": false
+    },
+    {
+        "id": "card-008",
+        "title": "Real-time Visibility Dashboard",
+        "summary": "Monitor project KPIs, cash flows and construction progress in real-time.",
+        "details": "Our GenPulse™ dashboard provides investors and sponsors with live telemetry, milestone tracking, and automated alerts for deviations. It consolidates financial, technical and operational metrics into an intuitive interface.",
+        "thumbnail": "https://i.ibb.co.com/1tyq6yNY/image8.jpg",
+        "date": "2025-01-12",
+        "author": "Product",
+        "category": "Platform",
+        "tags": ["dashboard", "monitoring", "analytics"],
+        "featured": true
+    },
+    {
+        "id": "card-009",
+        "title": "Inclusivity & Community Programs",
+        "summary": "Programs to ensure community benefits and inclusive participation.",
+        "details": "We design financing programs and community engagement plans that prioritise local hiring, shared ownership models, and affordable energy access. These initiatives help projects secure social licence and long-term sustainability.",
+        "thumbnail": "https://i.ibb.co.com/YBJLS9SN/image9.jpg",
+        "date": "2024-12-05",
+        "author": "ESG Team",
+        "category": "Community",
+        "tags": ["ESG", "community", "inclusivity"],
+        "featured": false
+    }
+]
