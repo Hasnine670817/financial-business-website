@@ -10,7 +10,8 @@ Built with **React**, **Tailwind CSS**, and **Swiper**, this project emphasizes 
 
 ## 🔗 Live Demo
 Check out the live site here:  
-[🌐 financial-solar-website.surge.sh]  
+[🌐 financial-business-website-solar.surge.sh](https://financial-business-website-solar.surge.sh)
+  
 
 ---
 
