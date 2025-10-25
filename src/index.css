@@ -92,6 +92,11 @@
     @apply !bg-white
   }
 
+  .teamSwiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply !bg-black
+  }
+  
+
 
 
 }

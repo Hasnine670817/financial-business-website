@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Login = () => {
     return (
         <div>
-            <div className="hero bg-base-200 py-10 md:py-15">
+            <div className="hero py-10 md:py-15">
                 <div className="hero-content block w-full text-center">
                     <div className="text-center">
                         <h1 className="text-3xl font-bold mt-0">Login now!</h1>

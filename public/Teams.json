@@ -1,0 +1,52 @@
+[
+    {
+        "id": "member-001",
+        "name": "Sarah Johnson",
+        "role": "Chief Financial Officer",
+        "bio": "Expert in corporate finance, strategic planning, and investment management with over 10 years of experience in global markets.",
+        "image": "https://i.ibb.co.com/SWBHGn0/image1.webp",
+        "linkedin": "https://linkedin.com/in/sarahjohnson",
+        "experience": "10+ Years",
+        "speciality": ["Finance Strategy", "Risk Management", "Corporate Growth"]
+    },
+    {
+        "id": "member-002",
+        "name": "Michael Brown",
+        "role": "Project Director",
+        "bio": "Leads solar investment and energy transition projects worldwide, ensuring innovation and financial sustainability across all portfolios.",
+        "image": "https://i.ibb.co.com/4ZLsCwjG/image2.png",
+        "linkedin": "https://linkedin.com/in/michaelbrown",
+        "experience": "8+ Years",
+        "speciality": ["Renewable Energy", "Investment Projects", "Team Leadership"]
+    },
+    {
+        "id": "member-003",
+        "name": "Emily Carter",
+        "role": "Marketing Head",
+        "bio": "Drives brand visibility and global communication strategies through creative marketing and client engagement excellence.",
+        "image": "https://i.ibb.co.com/WWZp0L51/image3.webp",
+        "linkedin": "https://linkedin.com/in/emilycarter",
+        "experience": "7+ Years",
+        "speciality": ["Marketing Strategy", "Brand Development", "Digital Growth"]
+    },
+    {
+        "id": "member-004",
+        "name": "Daniel Lee",
+        "role": "Investment Analyst",
+        "bio": "Specializes in data-driven market analysis, helping clients make informed and profitable financial decisions.",
+        "image": "https://i.ibb.co.com/fdbWCx8r/image4.jpg",
+        "linkedin": "https://linkedin.com/in/daniellee",
+        "experience": "5+ Years",
+        "speciality": ["Market Research", "Data Analytics", "Financial Modeling"]
+    },
+    {
+        "id": "member-005",
+        "name": "Sophia Turner",
+        "role": "Sustainability Advisor",
+        "bio": "Focused on integrating ESG principles into corporate finance and helping businesses transition to clean energy investments.",
+        "image": "https://i.ibb.co.com/fVWXzP3S/image5.jpg",
+        "linkedin": "https://linkedin.com/in/sophiaturner",
+        "experience": "6+ Years",
+        "speciality": ["Sustainability", "ESG Strategy", "Green Financing"]
+    }
+]
