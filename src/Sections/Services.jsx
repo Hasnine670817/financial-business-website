@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import start from '../../public/images/icons/star.png';
-import servicesImage from '../../public/images/services-image.png'
 import SolutionCard from '../DynamicCard/SolutionCard';
 
 const Services = () => {
@@ -49,7 +48,7 @@ const Services = () => {
                     </div>
                     <div className='lg:w-3/5 relative'>
                         <div className='md:w-[60%] ms-auto md:py-12 h-full md:absolute right-0 top-1/2 md:-translate-y-1/2'>
-                            <img className='rounded-2xl md:rounded-[30px] h-full object-cover object-center [box-shadow:21px_25px_47.9px_0px_#00000040]' src={servicesImage} alt="servicesImage" />
+                            <img className='rounded-2xl md:rounded-[30px] h-full object-cover object-center [box-shadow:21px_25px_47.9px_0px_#00000040]' src='https://i.ibb.co.com/QFFJq5w6/services-image.png' alt="servicesImage" />
                         </div>
                         <div className='ps-5 pe-5 md:pe-0 md:ps-10 -mt-14 md:mt-0'>
                             {
