@@ -29,10 +29,10 @@ const Header = () => {
 
                     <ul className='flex items-center gap-4'>
                         <li>
-                            <Link className='text-sm xl:text-base 2xl:text-lg font-semibold text-white bg-black leading-none py-3 px-6 2xl:py-4 2xl:px-8 rounded-[26px] hover:bg-[#12300B]'>Sign Up</Link>
+                            <Link to='/sign-up' className='text-sm xl:text-base 2xl:text-lg font-semibold text-white bg-black leading-none py-3 px-6 2xl:py-4 2xl:px-8 rounded-[26px] hover:bg-[#12300B]'>Sign Up</Link>
                         </li>
                         <li>
-                            <Link className='text-sm xl:text-base 2xl:text-lg font-semibold text-white bg-black leading-none py-3 px-6 2xl:py-4 2xl:px-8 rounded-[26px] hover:bg-[#12300B]'>Login</Link>
+                            <Link to='/login' className='text-sm xl:text-base 2xl:text-lg font-semibold text-white bg-black leading-none py-3 px-6 2xl:py-4 2xl:px-8 rounded-[26px] hover:bg-[#12300B]'>Login</Link>
                         </li>
                     </ul>
                 </nav>
@@ -65,10 +65,10 @@ const Header = () => {
                                 <NavLink to='/blog' className='text-base font-medium text-black relative'>Blog</NavLink>
                             </li>
                             <li className='mt-3'>
-                                <Link className='text-sm xl:text-base 2xl:text-lg font-semibold text-white bg-black leading-none py-3 px-6 2xl:py-4 2xl:px-8 rounded-[26px] hover:bg-[#12300B] justify-center'>Sign Up</Link>
+                                <Link to='sign-up' className='text-sm xl:text-base 2xl:text-lg font-semibold text-white bg-black leading-none py-3 px-6 2xl:py-4 2xl:px-8 rounded-[26px] hover:bg-[#12300B] justify-center'>Sign Up</Link>
                             </li>
                             <li className='mt-3'>
-                                <Link className='text-sm xl:text-base 2xl:text-lg font-semibold text-white bg-black leading-none py-3 px-6 2xl:py-4 2xl:px-8 rounded-[26px] hover:bg-[#12300B] justify-center'>Login</Link>
+                                <Link to='/login' className='text-sm xl:text-base 2xl:text-lg font-semibold text-white bg-black leading-none py-3 px-6 2xl:py-4 2xl:px-8 rounded-[26px] hover:bg-[#12300B] justify-center'>Login</Link>
                             </li>
                         </ul>
                     </div>

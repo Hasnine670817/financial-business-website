@@ -10,6 +10,8 @@ import './index.css'
 import MainLayouts from './Layouts/MainLayouts';
 import Home from './Pages/Home';
 import About from './Pages/About';
+import Login from './Auth/Login';
+import SignUp from './Auth/SignUp';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About></About>
+      },
+      {
+        path: "/login",
+        element: <Login></Login>
+      },
+      {
+        path: "/sign-up",
+        element: <SignUp></SignUp>
       }
     ]
   },

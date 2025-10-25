@@ -11,7 +11,7 @@ const Home = () => {
             <ChoseUs></ChoseUs>
             <Platform></Platform>
             <Services></Services>
-            <Insights></Insights>           
+            <Insights></Insights>
         </div>
     );
 };

@@ -25,7 +25,7 @@
 @layer base {
 
   body {
-    @apply bg-[#F3F4F6] font-manrope text-black
+    @apply bg-[#F3F4F6] font-manrope text-black min-h-screen
   }
 
   h1 {
