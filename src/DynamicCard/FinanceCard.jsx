@@ -3,7 +3,7 @@ const FinanceCard = ({card, handleShowMore}) => {
 
 
     return (
-        <div>
+        <div className="finance__card rounded-3xl sm:rounded-[30px]">
             <figure className='overflow-hidden rounded-3xl sm:rounded-[30px]'>
                 <img className='w-full h-[250px] lg:h-[280px] 2xl:h-[310px] rounded-3xl sm:rounded-[30px] object-center object-cover' src={card?.thumbnail} alt={card?.title} />
             </figure>

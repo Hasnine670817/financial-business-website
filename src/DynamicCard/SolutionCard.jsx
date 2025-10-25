@@ -1,4 +1,3 @@
-import React from 'react';
 import { BsPatchExclamation } from 'react-icons/bs';
 
 const SolutionCard = ({card}) => {

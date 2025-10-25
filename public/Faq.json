@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "What types of solar solutions do you offer?",
+        "answer": "We provide residential, commercial, and industrial solar solutions tailored to your specific energy needs."
+    },
+    {
+        "id": 2,
+        "question": "How much does a solar installation cost?",
+        "answer": "Costs vary depending on project size and requirements. We provide a free consultation and detailed quote for every project."
+    },
+    {
+        "id": 3,
+        "question": "Do you offer financial consultation for solar projects?",
+        "answer": "Yes, we provide expert financial planning and investment strategies to ensure maximum ROI on your solar investment."
+    },
+    {
+        "id": 4,
+        "question": "How long does the installation process take?",
+        "answer": "Residential installations typically take 1-2 weeks, commercial setups 2-6 weeks, and large industrial projects may vary depending on scale."
+    },
+    {
+        "id": 5,
+        "question": "Do you provide maintenance and support?",
+        "answer": "Absolutely. We offer ongoing maintenance and monitoring services to ensure optimal performance of your solar systems."
+    },
+    {
+        "id": 6,
+        "question": "Can I integrate solar solutions with existing energy systems?",
+        "answer": "Yes, our team can design hybrid solutions to integrate solar with your current energy infrastructure seamlessly."
+    },
+    {
+        "id": 7,
+        "question": "Are there any warranties on your solar products?",
+        "answer": "All our installations come with industry-standard warranties, including panel and inverter warranties for long-term reliability."
+    },
+    {
+        "id": 8,
+        "question": "How do I schedule a consultation?",
+        "answer": "You can schedule a consultation through our website contact form, email, or by calling our customer service line."
+    },
+    {
+        "id": 9,
+        "question": "Do you handle permits and regulatory requirements?",
+        "answer": "Yes, our team manages all necessary permits and ensures compliance with local regulations for a hassle-free experience."
+    },
+    {
+        "id": 10,
+        "question": "Can your solutions help reduce energy costs immediately?",
+        "answer": "Yes, our optimized solar solutions can start reducing your energy costs from day one, depending on system size and energy consumption."
+    }
+]

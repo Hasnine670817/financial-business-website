@@ -95,6 +95,14 @@
   .teamSwiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
     @apply !bg-black
   }
+
+  .finance__card {
+    @apply transition-all scale-100 duration-300
+  }
+
+  .finance__card:hover {
+    @apply scale-[1.03] transition-all duration-300 shadow-2xl
+  }
   
 
 

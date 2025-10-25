@@ -53,10 +53,10 @@ const About = () => {
                         pagination={{
                             clickable: true,
                         }}
-                        // autoplay={{
-                        //     delay: 2500,
-                        //     disableOnInteraction: false,
-                        // }}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
                         loop={true}
                         speed={1000}
                         modules={[Pagination, Autoplay]}

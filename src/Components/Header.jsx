@@ -20,7 +20,7 @@ const Header = () => {
                             <NavLink to='/services' className='text-sm xl:text-base 2xl:text-lg font-medium text-black relative link-a'>Services</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/page' className='text-sm xl:text-base 2xl:text-lg font-medium text-black relative link-a'>Page</NavLink>
+                            <NavLink to='/faq' className='text-sm xl:text-base 2xl:text-lg font-medium text-black relative link-a'>FAQ</NavLink>
                         </li>
                         <li>
                             <NavLink to='/blog' className='text-sm xl:text-base 2xl:text-lg font-medium text-black relative link-a'>Blog</NavLink>
@@ -59,7 +59,7 @@ const Header = () => {
                                 <NavLink to='/services' className='text-base font-medium text-black relative'>Services</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/page' className='text-base font-medium text-black relative'>Page</NavLink>
+                                <NavLink to='/faq' className='text-base font-medium text-black relative'>FAQ</NavLink>
                             </li>
                             <li>
                                 <NavLink to='/blog' className='text-base font-medium text-black relative'>Blog</NavLink>
