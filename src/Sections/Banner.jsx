@@ -1,4 +1,4 @@
-import bannerImage from '../../public/images/banner-image.png';
+import bannerImage from '../../public/images/banner-image.webp';
 import paymentIcon from '../../public/images/icons/payment.png';
 import brainstorming from '../../public/images/icons/brainstorming.png';
 
