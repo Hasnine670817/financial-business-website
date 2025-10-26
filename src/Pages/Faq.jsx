@@ -4,13 +4,28 @@ import { useEffect, useState } from "react";
 const Faq = () => {
 
     const [faqs, setFaqs] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         fetch('/Faq.json')
             .then(res => res.json())
-            .then(data => setFaqs(data))
-            .catch(error => console.error(error))
-    }, [])
+            .then(data => {
+                setFaqs(data)
+                setLoading(false)
+            })
+            .catch(error => {
+                console.error(error)
+                setLoading(false)
+            })
+    }, []);
+
+    if (loading) {
+        return (
+            <div className="flex justify-center items-center h-[60vh] transition-opacity duration-700">
+                <span className="loading loading-bars loading-xl"></span>
+            </div>
+        );
+    }
 
     return (
         <div className='pt-5 md:pt-10 pb-10 md:pb-20'>
