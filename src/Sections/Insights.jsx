@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import insightsDots from '../../public/images/insights-dots.png'
-import insightsBlur from '../../public/images/insights-blur.png'
+// import insightsDots from '../../public/images/insights-dots.png'
+// import insightsBlur from '../../public/images/insights-blur.png'
 import FinanceCard from '../DynamicCard/FinanceCard';
-import ellipseBlur1 from '../../public/images/icons/ellipse-blur1.png';
+// import ellipseBlur1 from '../../public/images/icons/ellipse-blur1.png';
 import CardDetails from '../CardDetails/CardDetails';
 import { FaFilter } from 'react-icons/fa';
 
@@ -77,9 +77,9 @@ const Insights = () => {
 
     return (
         <section className='relative z-10 pt-0 pb-15 md:pt-10 md:pb-25'>
-            <img className='absolute w-full left-0 top-0 -z-10' src={insightsDots} alt="insightsDots" />
-            <img className='absolute left-0 bottom-0 -z-10' src={insightsBlur} alt="insightsBlur" />
-            <img className='absolute right-0 top-0 -z-10' src={ellipseBlur1} alt="ellipse blur1" />
+            <img className='absolute w-full left-0 top-0 -z-10' src='https://i.ibb.co.com/fzfsRD7f/dots1.png' alt="insightsDots" />
+            <img className='absolute left-0 bottom-0 -z-10' src='https://i.ibb.co.com/nszX2Qgj/insights-blur.png' alt="insightsBlur" />
+            <img className='absolute right-0 top-0 -z-10' src='https://i.ibb.co.com/1WrdC2s/ellipse-blur1.png' alt="ellipse blur1" />
 
             <div className='container-custom'>
                 <div>

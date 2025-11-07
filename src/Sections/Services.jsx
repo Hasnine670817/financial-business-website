@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import start from '../../public/images/icons/star.png';
+// import start from '../../public/images/icons/star.png';
 import SolutionCard from '../DynamicCard/SolutionCard';
 
 const Services = () => {
@@ -34,13 +34,13 @@ const Services = () => {
 
                         <ul className='flex gap-4 items-center mb-12 lg:mb-20 justify-center lg:justify-start'>
                             <li>
-                                <img src={start} alt="star" />
+                                <img src='https://i.ibb.co.com/rKygHDHH/star.png' alt="star" />
                             </li>
                             <li>
-                                <img src={start} alt="star" />
+                                <img src='https://i.ibb.co.com/rKygHDHH/star.png' alt="star" />
                             </li>
                             <li>
-                                <img src={start} alt="star" />
+                                <img src='https://i.ibb.co.com/rKygHDHH/star.png' alt="star" />
                             </li>
                         </ul>
 
