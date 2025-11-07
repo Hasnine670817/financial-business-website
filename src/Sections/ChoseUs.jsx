@@ -17,25 +17,25 @@ const ChoseUs = () => {
             <img className='absolute right-0 top-28 -z-10' src='https://i.ibb.co.com/1WrdC2s/ellipse-blur1.png' alt="ellipse blur1" />
             <div className='container-custom'>
                 <div>
-                    <p className='text-sm xl:text-xl font-medium text-old-green flex items-center justify-center md:justify-start gap-2.5'>
+                    <p data-aos="fade-up" className='text-sm xl:text-xl font-medium text-old-green flex items-center justify-center md:justify-start gap-2.5'>
                         <span className='xl:w-5 w-3 xl:h-5 h-3 rounded-full bg-old-green'></span>
                         Why Chose Us
                     </p>
                 </div>
 
                 <div className='text-center py-5 md:py-13'>
-                    <h2 className='text-[28px] md:text-4xl xl:text-[55px] leading-[1.2] font-light'>Your <b className='font-bold'>Trusted</b> Platform in Solar Project <b className='font-bold'>Financing</b> and <b className='font-bold'>Development</b></h2>
+                    <h2 data-aos="flip-up" className='text-[28px] md:text-4xl xl:text-[55px] leading-[1.2] font-light'>Your <b className='font-bold'>Trusted</b> Platform in Solar Project <b className='font-bold'>Financing</b> and <b className='font-bold'>Development</b></h2>
                 </div>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:-mb-[100px] xl:-mb-[250px] 2xl:-mb-[300px]'>
-                    <p className='text-sm text-center md:text-start lg:text-lg xl:text-xl font-normal 2xl:leading-[36px]'>At IQGen, we understand that every solar project is unique. With years of experience in renewable energy financing, development, and construction support, our team combines deep industry knowledge with innovative financial strategies to accelerate project timelines and maximize returns.</p>
+                    <p data-aos="zoom-in" className='text-sm text-center md:text-start lg:text-lg xl:text-xl font-normal 2xl:leading-[36px]'>At IQGen, we understand that every solar project is unique. With years of experience in renewable energy financing, development, and construction support, our team combines deep industry knowledge with innovative financial strategies to accelerate project timelines and maximize returns.</p>
                     <div className='relative'>
-                        <img className='max-w-[300px] lg:max-w-full mx-auto lg:mx-0' src='https://i.ibb.co.com/8DBs7HYC/shape1.png' alt="shape1" />
+                        <img className='float-animation max-w-[300px] lg:max-w-full mx-auto lg:mx-0' src='https://i.ibb.co.com/8DBs7HYC/shape1.png' alt="shape1" />
                     </div>
                 </div>
 
                 <div className='relative md:inline-block 2xl:ps-[150px] w-full max-w-[370px] mx-auto lg:w-auto lg:max-w-none lg:mx-0'>
-                    <div className='max-w-[470px] bg-black [box-shadow:22px_40px_40px_0px_#0000000D] rounded-[35px] px-11 py-10 text-center'>
+                    <div data-aos="flip-left" className='max-w-[470px] bg-black [box-shadow:22px_40px_40px_0px_#0000000D] rounded-[35px] px-11 py-10 text-center'>
                         <h4 className='text-xl xl:text-2xl font-poppins text-white font-normal leading-[1.5]'>Project Planning and <br /> Optimization</h4>
                         <img className='mt-4' src='https://i.ibb.co.com/spdLzLLN/brain.png' alt="brain" />
                     </div>

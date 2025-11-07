@@ -4,7 +4,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Autoplay } from 'swiper/modules';
 
-import aboutImage from '../../public/images/about1.jpg'
+// import aboutImage from '../../public/images/about1.jpg'
 import { useEffect, useState } from 'react';
 
 
@@ -24,7 +24,7 @@ const About = () => {
             <section className='pt-5 md:pt-10 xl:pt-16'>
                 <div className='container-custom'>
                     <div className='relative grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10'>
-                        <img className='rounded-2xl w-full object-cover object-center h-full min-h-[250px]' src={aboutImage} alt="about image" />
+                        <img className='rounded-2xl w-full object-cover object-center h-full min-h-[250px]' src='https://i.ibb.co.com/nNHk0QqN/about1.jpg' alt="about image" />
                         <div>
                             <h2 className='text-2xl md:text-3xl xl:text-5xl font-bold'>About Us</h2>
                             <p className='text-xs md:text-sm xl:text-base mt-5 font-poppins text-[#979797] leading-[1.8]'>We are a trusted name in financial innovation and sustainable business growth. At Financial Business, we combine strategic investment planning with modern technology to empower organizations across the renewable energy and finance sectors. Our expert team collaborates with clients to design customized capital solutions, optimize operational efficiency, and build long-term value.</p>

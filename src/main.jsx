@@ -6,6 +6,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import './index.css'
 import MainLayouts from './Layouts/MainLayouts';
 import Home from './Pages/Home';
@@ -49,6 +52,12 @@ const router = createBrowserRouter([
     ]
   },
 ]);
+
+AOS.init({
+  duration: 1000, // animation duration (ms)
+  offset: 100,    // distance from top
+  once: true,     // animate only once
+});
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

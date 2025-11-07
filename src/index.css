@@ -97,7 +97,7 @@
   }
 
   .finance__card {
-    @apply transition-all scale-100 duration-300
+    @apply transition-transform scale-100 duration-300
   }
 
   .finance__card:hover {
@@ -110,5 +110,48 @@
 }
 
 @layer utilities {
-  /*  */
+  /* Smooth floating animation */
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .float-animation {
+    animation: floatUpDown 3s ease-in-out infinite;
+  }
+
+
+  /* card animations */
+  @keyframes cardUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .card-animation {
+    animation: cardUpDown 3s ease-in-out infinite;
+  }
+
+  .card-animation-delay-1 {
+    animation: cardUpDown 3s ease-in-out infinite;
+    animation-delay: 1s;
+  }
+  
+  .card-animation-delay-2 {
+    animation: cardUpDown 3s ease-in-out infinite;
+    animation-delay: 2s;
+  }
 }

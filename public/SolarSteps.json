@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Sunlight Capture",
+        "description": "Solar panels capture sunlight and convert it into direct current (DC) electricity.",
+        "image": "https://i.ibb.co.com/qV2XhDg/image1.jpg",
+        "icon": "☀️",
+        "category": "Energy Generation",
+        "efficiency": "92%",
+        "duration": "Daytime Only"
+    },
+    {
+        "id": 2,
+        "title": "Inverter Conversion",
+        "description": "The DC electricity is converted to alternating current (AC) using an inverter for home or grid use.",
+        "image": "https://i.ibb.co.com/cXCSLgTN/image2.jpg",
+        "icon": "⚡",
+        "category": "Power Conversion",
+        "efficiency": "95%",
+        "duration": "Continuous"
+    },
+    {
+        "id": 3,
+        "title": "Power Distribution",
+        "description": "The converted AC electricity powers your home appliances or is fed to the local power grid.",
+        "image": "https://i.ibb.co.com/sJFkTq7n/image3.webp",
+        "icon": "🏠",
+        "category": "Energy Flow",
+        "efficiency": "90%",
+        "duration": "24/7"
+    },
+    {
+        "id": 4,
+        "title": "Battery Storage",
+        "description": "Excess energy is stored in batteries for use during night or cloudy days.",
+        "image": "https://i.ibb.co.com/rRcQmM2H/image4.jpg",
+        "icon": "🔋",
+        "category": "Energy Storage",
+        "efficiency": "88%",
+        "duration": "Night Support"
+    },
+    {
+        "id": 5,
+        "title": "Monitoring System",
+        "description": "Smart monitoring helps track energy production and consumption in real-time.",
+        "image": "https://i.ibb.co.com/TxnZqCCB/image5.jpg",
+        "icon": "📊",
+        "category": "Smart Tech",
+        "efficiency": "98%",
+        "duration": "Real-time"
+    },
+    {
+        "id": 6,
+        "title": "Grid Integration",
+        "description": "Solar energy can be exported to the local power grid, reducing electricity bills.",
+        "image": "https://i.ibb.co.com/7dwmZnQt/image6.jpg",
+        "icon": "🌐",
+        "category": "Grid System",
+        "efficiency": "93%",
+        "duration": "Dynamic"
+    },
+    {
+        "id": 7,
+        "title": "Maintenance & Support",
+        "description": "Regular maintenance ensures maximum efficiency and long-term performance.",
+        "image": "https://i.ibb.co.com/Y7cXJYXB/image7.jpg",
+        "icon": "🧰",
+        "category": "Support",
+        "efficiency": "85%",
+        "duration": "Monthly"
+    },
+    {
+        "id": 8,
+        "title": "Eco-Friendly Impact",
+        "description": "Using solar energy reduces carbon footprint and promotes a sustainable future.",
+        "image": "https://i.ibb.co.com/7NXCVxg1/image8.jpg",
+        "icon": "🌿",
+        "category": "Environment",
+        "efficiency": "100%",
+        "duration": "Lifetime"
+    }
+]
