@@ -1,0 +1,151 @@
+[
+    {
+        "id": 1,
+        "title": "Basic Solar Plan",
+        "price": 19,
+        "tag": "Starter Pack",
+        "features": [
+            "Energy-efficient solar panels",
+            "Free consultation",
+            "1-year maintenance",
+            "Eco-friendly setup"
+        ],
+        "unavailable": [
+            "Smart monitoring",
+            "Battery backup system"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Advanced Solar Plan",
+        "price": 29,
+        "tag": "Most Popular",
+        "features": [
+            "High-capacity solar panels",
+            "2-year maintenance",
+            "Smart monitoring system",
+            "Remote energy tracking"
+        ],
+        "unavailable": [
+            "Battery storage",
+            "Cloud integration"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Premium Solar Package",
+        "price": 39,
+        "tag": "Top Rated",
+        "features": [
+            "Smart solar monitoring",
+            "Battery backup system",
+            "3-year maintenance",
+            "24/7 customer support"
+        ],
+        "unavailable": [
+            "Custom design service",
+            "Cloud dashboard"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Solar Plus+",
+        "price": 25,
+        "tag": "New",
+        "features": [
+            "AI-driven efficiency tracking",
+            "Custom installation",
+            "Free site inspection"
+        ],
+        "unavailable": [
+            "Cloud analytics",
+            "Auto cleaning system"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Eco Smart Solar",
+        "price": 32,
+        "tag": "Pro",
+        "features": [
+            "Smart inverter setup",
+            "Real-time monitoring",
+            "Lifetime support"
+        ],
+        "unavailable": [
+            "AI analytics",
+            "Smart battery control"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Home Solar Lite",
+        "price": 17,
+        "tag": "Budget",
+        "features": [
+            "Low-cost solar setup",
+            "1-year warranty"
+        ],
+        "unavailable": [
+            "Monitoring system",
+            "Battery backup"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Industrial Solar Plan",
+        "price": 45,
+        "tag": "Enterprise",
+        "features": [
+            "High-performance setup",
+            "24/7 support",
+            "5-year maintenance"
+        ],
+        "unavailable": [
+            "AI analytics",
+            "Cloud dashboard"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Corporate Solar Service",
+        "price": 50,
+        "tag": "Business",
+        "features": [
+            "Corporate installation",
+            "Dedicated account manager",
+            "Energy optimization system"
+        ],
+        "unavailable": [
+            "Custom analytics",
+            "Smart tracking"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Solar Battery Combo",
+        "price": 34,
+        "tag": "Combo Deal",
+        "features": [
+            "Battery + solar panel package",
+            "2-year warranty",
+            "Installation included"
+        ],
+        "unavailable": [
+            "Monitoring system"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Smart Solar Elite",
+        "price": 60,
+        "tag": "Elite",
+        "features": [
+            "AI optimization",
+            "Premium panels",
+            "Battery backup",
+            "Lifetime service"
+        ],
+        "unavailable": []
+    }
+]

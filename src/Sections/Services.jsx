@@ -30,7 +30,9 @@ const Services = () => {
                         <h2 data-aos="fade-up" className='text-2xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-[65px] font-light leading-[1.2] mt-10 lg:mt-17 text-center lg:text-start text-black'>GWs</h2>
                         <h5 data-aos="fade-up" className='mt-6 mb-3.5 font-poppins text-lg font-medium text-old-green'>Of Overall Processing and Deal Experience</h5>
                         <p data-aos="fade-up" className='text-base text-[#979797] leading-[1.8] max-w-[426px] mx-auto lg:mx-0'>Our back office and executive leadership team collectively bring a wealth of experience, having successfully supported and executed over 10 gigawatts (GW) of alternative energy generation projects across eight countries.</p>
-                        <button data-aos="fade-up" type="button" className='py-6 px-12 bg-old-green hover:bg-black rounded-3xl text-white leading-0 mt-10 lg:mt-16 mb-10 lg:mb-14'>Discover</button>
+                        <div data-aos="fade-up">
+                            <button type="button" className='py-6 px-12 bg-old-green hover:bg-black rounded-3xl text-white leading-0 mt-10 lg:mt-16 mb-10 lg:mb-14'>Discover</button>
+                        </div>
 
                         <ul data-aos="fade-up" className='flex gap-4 items-center mb-12 lg:mb-20 justify-center lg:justify-start'>
                             <li>

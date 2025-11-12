@@ -18,7 +18,7 @@ Check out the live site here:
 ## 🖼️ Preview
 
 <div align="center">
-  <img src="https://i.ibb.co.com/20PK0vhF/solar-website.png" alt="Financial Solar Website Screenshot" style="width:100%; max-width:1000px; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+  <img src="https://i.ibb.co.com/bMk3K8P8/solar-page1-min.png" alt="Financial Solar Website Screenshot" style="width:100%; max-width:1000px; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
 </div>
 
 ---
