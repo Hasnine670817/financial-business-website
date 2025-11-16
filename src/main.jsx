@@ -18,6 +18,10 @@ import SignUp from './Auth/SignUp';
 import ErrorPage from './Pages/ErrorPage';
 import Faq from './Pages/Faq';
 import ServicesPage from './Pages/ServicesPage';
+import Appointment from './Pages/Appointment';
+import AppProvider from './Context/AppContext';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
+import Newsletter from './Pages/Newsletter';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +46,18 @@ const router = createBrowserRouter([
         element: <Faq></Faq>
       },
       {
+        path: "/appointment",
+        element: (
+          <PrivateRoute>
+            <Appointment></Appointment>
+          </PrivateRoute>
+        )
+      },
+      {
+        path: "/newsletter",
+        element: <Newsletter></Newsletter>
+      },
+      {
         path: "/login",
         element: <Login></Login>
       },
@@ -61,6 +77,8 @@ AOS.init({
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <AppProvider>
+      <RouterProvider router={router} />
+    </AppProvider>
   </StrictMode>,
 )

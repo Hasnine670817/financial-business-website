@@ -59,7 +59,8 @@ const ServicesCard = () => {
                 {/* Cards Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {visibleServices.map((service) => (
-                        <div
+                        <div 
+                            data-aos="fade-up"
                             key={service.id}
                             className="card w-full bg-white shadow-md border border-gray-100 hover:shadow-lg transition-all duration-300"
                         >
