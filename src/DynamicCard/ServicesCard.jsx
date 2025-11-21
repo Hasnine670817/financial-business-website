@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { FaArrowRightLong } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 const ServicesCard = () => {
     const [services, setServices] = useState([]);
@@ -119,7 +120,7 @@ const ServicesCard = () => {
                                     ))}
                                 </ul>
                                 <div className="mt-6">
-                                    <button type="button" className='py-4 px-8 text-xs xl:text-base xl:py-4 xl:px-12 border text-black border-old-green hover:bg-old-green rounded-3xl hover:text-white leading-0 w-full flex gap-2 items-center justify-center font-medium'>Get Started <FaArrowRightLong className='leading-0' /></button>
+                                    <Link type="button" to={`/service/${service.id}`} className='py-4 px-8 text-xs xl:text-base xl:py-4 xl:px-12 border text-black border-old-green hover:bg-old-green rounded-3xl hover:text-white leading-0 w-full flex gap-2 items-center justify-center font-medium'>Get Started <FaArrowRightLong className='leading-0' /></Link>
                                 </div>
                             </div>
                         </div>

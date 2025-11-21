@@ -7,7 +7,7 @@ const AppProvider = ({ children }) => {
     const [user, setUser] = useState(null);
 
     const correctEmail = "test1234@gmail.com";
-    const correctPassword = "12345";
+    const correctPassword = "1234";
 
     const login = ({ email, password }) => {
         if (correctEmail === email && correctPassword === password) {

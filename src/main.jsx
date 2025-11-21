@@ -21,7 +21,7 @@ import ServicesPage from './Pages/ServicesPage';
 import Appointment from './Pages/Appointment';
 import AppProvider from './Context/AppContext';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
-import Newsletter from './Pages/Newsletter';
+import ServiceDetails from './CardDetails/ServiceDetails';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +42,12 @@ const router = createBrowserRouter([
         element: <ServicesPage></ServicesPage>
       },
       {
+        path: "/service/:id",
+        element: <PrivateRoute>
+          <ServiceDetails></ServiceDetails>
+        </PrivateRoute>
+      },
+      {
         path: "/faq",
         element: <Faq></Faq>
       },
@@ -52,10 +58,6 @@ const router = createBrowserRouter([
             <Appointment></Appointment>
           </PrivateRoute>
         )
-      },
-      {
-        path: "/newsletter",
-        element: <Newsletter></Newsletter>
       },
       {
         path: "/login",

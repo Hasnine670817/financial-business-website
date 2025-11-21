@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import Swal from "sweetalert2";
 
 const Appointment = () => {
-    const { serviceId } = useParams(); // URL থেকে service id
+    const { serviceId } = useParams();
     const [services, setServices] = useState([]);
     const [loading, setLoading] = useState(true);
 
