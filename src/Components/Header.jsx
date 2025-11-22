@@ -27,6 +27,9 @@ const Header = () => {
                         <li>
                             <NavLink to='/faq' className='text-sm xl:text-base 2xl:text-lg font-medium text-black relative link-a'>FAQ</NavLink>
                         </li>
+                        <li>
+                            <NavLink to='/contact' className='text-sm xl:text-base 2xl:text-lg font-medium text-black relative link-a'>Contact</NavLink>
+                        </li>
                         {
                             user && (
                                 <li>
@@ -86,7 +89,6 @@ const Header = () => {
                         <div className='flex items-center justify-between'>
                             <Link to='/'><img className='max-w-[60px]' src={headerLogo} alt="logo" /></Link>
                             <div className='flex gap-3 items-center'>
-                                <label htmlFor="my-drawer-1" className="drawer-button cursor-pointer text-xl"><FaBars></FaBars></label>
                                 {
                                     user && (
                                         <div className="dropdown dropdown-end">
@@ -120,6 +122,8 @@ const Header = () => {
                                         </div>
                                     )
                                 }
+                                <label htmlFor="my-drawer-1" className="drawer-button cursor-pointer text-xl"><FaBars></FaBars></label>
+                                
                             </div>
                         </div>
                     </div>
@@ -139,8 +143,15 @@ const Header = () => {
                                 <NavLink to='/faq' className='text-base font-medium text-black relative'>FAQ</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/appointment' className='text-base font-medium text-black relative'>Appointment</NavLink>
+                                <NavLink to='/contact' className='text-base font-medium text-black relative'>Contact</NavLink>
                             </li>
+                            {
+                                user && (
+                                    <li>
+                                        <NavLink to='/appointment' className='text-base 2xl:text-lg font-medium text-black relative link-a'>Appointment</NavLink>
+                                    </li>
+                                )
+                            }
                             {
                                 !user && (
                                     <>

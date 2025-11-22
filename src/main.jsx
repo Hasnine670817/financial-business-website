@@ -22,6 +22,7 @@ import Appointment from './Pages/Appointment';
 import AppProvider from './Context/AppContext';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import ServiceDetails from './CardDetails/ServiceDetails';
+import Contact from './Pages/Contact';
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: "/faq",
         element: <Faq></Faq>
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>
       },
       {
         path: "/appointment",
